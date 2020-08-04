@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import landingImage from '../../assets/images/landing.svg';
 import logoImage from '../../assets/images/logo.svg';
 
@@ -23,14 +25,14 @@ const Landing: React.FC = () => {
           className='hero-image'
         />
         <div className='buttons-container'>
-          <a href='/teste' className='study'>
+          <Link to='/study' className='study'>
             <img src={studyIcon} alt='Estudar' />
             Estudar
-          </a>
-          <a href='/teste2' className='give-classes'>
+          </Link>
+          <Link to='/give-classes' className='give-classes'>
             <img src={giveClassIcon} alt='Dar aulas' />
             Dar aulas
-          </a>
+          </Link>
         </div>
 
         <span className='total-connections'>
