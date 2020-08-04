@@ -16,27 +16,27 @@ const Landing: React.FC = () => {
         <div className='logo-container'>
           <img src={logoImage} alt='Proffy' />
           <h2>Sua plataforma de estudos online.</h2>
-          <img
-            src={landingImage}
-            alt='plataforma de estudos'
-            className='hero-image'
-          />
-          <div className='buttons-container'>
-            <a href='/teste' className='study'>
-              <img src={studyIcon} alt='Estudar' />
-              Estudar
-            </a>
-            <a href='/teste2' className='give-classes'>
-              <img src={giveClassIcon} alt='Dar aulas' />
-              Estudar
-            </a>
-          </div>
-
-          <span className='total-connections'>
-            Total de 200 conexões já realizadas{' '}
-            <img src={purpleHeartIcon} alt='Coração roxo' />
-          </span>
         </div>
+        <img
+          src={landingImage}
+          alt='plataforma de estudos'
+          className='hero-image'
+        />
+        <div className='buttons-container'>
+          <a href='/teste' className='study'>
+            <img src={studyIcon} alt='Estudar' />
+            Estudar
+          </a>
+          <a href='/teste2' className='give-classes'>
+            <img src={giveClassIcon} alt='Dar aulas' />
+            Dar aulas
+          </a>
+        </div>
+
+        <span className='total-connections'>
+          Total de 200 conexões já realizadas
+          <img src={purpleHeartIcon} alt='Coração roxo' />
+        </span>
       </div>
     </div>
   );
